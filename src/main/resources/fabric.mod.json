@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "vanity-icons",
+	"version": "${version}",
+	"name": "Vanity Icons",
+	"description": "WIP",
+	"authors": [
+		"PointZero86"
+	],
+	"contact": {
+		"homepage": "WIP",
+		"sources": "Github WIP"
+	},
+	"license": "MIT",
+	"icon": "assets/vanity-icons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"pointzero.vanityicons.VanityIcons"
+		],
+		"fabric-datagen": [
+			"pointzero.vanityicons.VanityIconsDataGenerator"
+		],
+		"client": [
+			"pointzero.vanityicons.VanityIconsClient"
+		]
+	},
+	"mixins": [
+		"vanity-icons.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
