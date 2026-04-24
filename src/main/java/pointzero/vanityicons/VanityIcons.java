@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import pointzero.vanityicons.item.ModItemGroups;
 import pointzero.vanityicons.item.ModItems;
 
 public class VanityIcons implements ModInitializer {
@@ -17,5 +18,6 @@ public class VanityIcons implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }
