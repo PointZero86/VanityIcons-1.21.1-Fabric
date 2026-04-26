@@ -3,16 +3,16 @@
 	"id": "vanity-icons",
 	"version": "${version}",
 	"name": "Vanity Icons",
-	"description": "WIP",
+	"description": "Various items for purely display purposes.",
 	"authors": [
 		"PointZero86"
 	],
 	"contact": {
 		"homepage": "WIP",
-		"sources": "Github WIP"
+		"sources": "https://github.com/PointZero86/Vanity-Icons"
 	},
 	"license": "MIT",
-	"icon": "assets/vanity-icons/icon.png",
+	"icon": "assets/vanityicons/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

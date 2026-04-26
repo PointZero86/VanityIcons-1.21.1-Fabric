@@ -1,6 +1,11 @@
 {
   "item.vanityicons.high_heel": "High Heel",
   "item.vanityicons.mother_earth": "Mother Earth",
+  "item.vanityicons.rubber_ducky": "Rubber Ducky",
+  "item.vanityicons.plastic_decal": "Plastic Decal",
+  "item.vanityicons.voltage": "Voltage",
+  "item.vanityicons.voltage_warning": "Voltage Warning",
+
 
   "itemgroup.vanityicons.vanity_icons_items": "Vanity Icons"
 }

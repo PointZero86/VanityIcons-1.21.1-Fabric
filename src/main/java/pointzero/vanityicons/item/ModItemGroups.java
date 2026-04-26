@@ -13,11 +13,15 @@ public class ModItemGroups
 {
     public static final ItemGroup VANITY_ICONS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(VanityIcons.MOD_ID, "vanity_icons_items"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.MOTHER_EARTH))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.RUBBER_DUCKY))
                     .displayName(Text.translatable("itemgroup.vanityicons.vanity_icons_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.MOTHER_EARTH);
                         entries.add(ModItems.HIGH_HEEL);
+                        entries.add(ModItems.RUBBER_DUCKY);
+                        entries.add(ModItems.PLASTIC_DECAL);
+                        entries.add(ModItems.VOLTAGE);
+                        entries.add(ModItems.VOLTAGE_WARNING);
                     }).build());
 
     public static void registerItemGroups() {
