@@ -22,6 +22,7 @@ public class ModItemGroups
                         entries.add(ModItems.PLASTIC_DECAL);
                         entries.add(ModItems.VOLTAGE);
                         entries.add(ModItems.VOLTAGE_WARNING);
+                        entries.add(ModItems.RUNNING_MAN);
                     }).build());
 
     public static void registerItemGroups() {
